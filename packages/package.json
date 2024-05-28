@@ -1,6 +1,6 @@
 {
   "name": "fontrocket",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "NPM package for fontrocket",
   "main": "font.css",
   "repository": {
