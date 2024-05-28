@@ -4,12 +4,14 @@
 name: Node.js Package
 
 on:
-  release:
-    types: [created]
+  push:
+    branches: [ master ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      working-directory: ./packages
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
@@ -28,6 +30,8 @@ jobs:
           node-version: 16
           registry-url: https://registry.npmjs.org/
       - run: npm ci
+        working-directory: ${{ env.working-directory }}
       - run: npm publish
+        working-directory: ${{ env.working-directory }}
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
