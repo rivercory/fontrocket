@@ -2,6 +2,7 @@
   "name": "fontrocket",
   "version": "1.0.6",
   "description": "NPM package for fontrocket",
+  "author": "Hyeonho Kang <hyeonho2010@naver.com> (https://github.com/rivercory/fontrocket.git)",
   "main": "font.css",
   "repository": {
     "type": "git",
