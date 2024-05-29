@@ -1,23 +1,23 @@
 {
   "name": "fontrocket",
-  "version": "1.0.6",
+  "version": "1.0.10",
   "description": "NPM package for fontrocket",
   "author": "Hyeonho Kang <hyeonho2010@naver.com> (https://github.com/rivercory/fontrocket.git)",
   "main": "font.css",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rivercory/fontrocket-npm.git"
+    "url": "git+https://github.com/rivercory/fontrocket.git"
   },
   "keywords": [
-    "raleway",
+    "fontrocket",
     "font",
+    "rocket",
     "webfont",
     "css"
   ],
-  "author": "Hyeonho Kang",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/rivercory/fontrocket-npm/issues"
+    "url": "https://github.com/rivercory/fontrocket/issues"
   },
-  "homepage": "https://github.com/rivercory/fontrocket-npm"
+  "homepage": "https://github.com/rivercory/fontrocket"
 }
