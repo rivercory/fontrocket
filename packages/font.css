@@ -1,10 +1,11 @@
-/* fontrocket | Version 1.0.10 */
+/* fontrocket 🚀 | Version 1.0.11 */
 
 /* 프리텐다드 https://github.com/orioncactus/pretendard */
 @font-face {
     font-family: 'Pretendard';
     src: local('Pretendard Thin'), url(./fonts/pretendard/web/static/woff2/Pretendard-Thin.woff2) format('woff2'), url(./fonts/pretendard/web/static/woff/Pretendard-Thin.woff) format('woff');
     font-weight: 100;
+    font-style: normal;
     font-display: swap;
 }
 
@@ -12,6 +13,7 @@
     font-family: 'Pretendard';
     src: local('Pretendard ExtraLight'), url(./fonts/pretendard/web/static/woff2/Pretendard-ExtraLight.woff2) format('woff2'), url(./fonts/pretendard/web/static/woff/Pretendard-ExtraLight.woff) format('woff');
     font-weight: 200;
+    font-style: normal;
     font-display: swap;
 }
 
@@ -19,6 +21,7 @@
     font-family: 'Pretendard';
     src: local('Pretendard Light'), url(./fonts/pretendard/web/static/woff2/Pretendard-Light.woff2) format('woff2'), url(./fonts/pretendard/web/static/woff/Pretendard-Light.woff) format('woff');
     font-weight: 300;
+    font-style: normal;
     font-display: swap;
 }
 
@@ -26,6 +29,7 @@
     font-family: 'Pretendard';
     src: local('Pretendard Regular'), url(./fonts/pretendard/web/static/woff2/Pretendard-Regular.woff2) format('woff2'), url(./fonts/pretendard/web/static/woff/Pretendard-Regular.woff) format('woff');
     font-weight: 400;
+    font-style: normal;
     font-display: swap;
 }
 
@@ -33,29 +37,57 @@
     font-family: 'Pretendard';
     src: local('Pretendard Medium'), url(./fonts/pretendard/web/static/woff2/Pretendard-Medium.woff2) format('woff2'), url(./fonts/pretendard/web/static/woff/Pretendard-Medium.woff) format('woff');
     font-weight: 500;
+    font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Pretendard';
     src: local('Pretendard SemiBold'), url(./fonts/pretendard/web/static/woff2/Pretendard-SemiBold.woff2) format('woff2'), url(./fonts/pretendard/web/static/woff/Pretendard-SemiBold.woff) format('woff');
-    font-family: 600;
+    font-weight: 600;
+    font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Pretendard';
     src: local('Pretendard Bold'), url(./fonts/pretendard/web/static/woff2/Pretendard-Bold.woff2) format('woff2'), url(./fonts/pretendard/web/static/woff/Pretendard-Bold.woff) format('woff');
-    font-family: 700;
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: local('Pretendard ExtraBold'), url(./fonts/pretendard/web/static/woff2/Pretendard-ExtraBold.woff2) format('woff2'), url(./fonts/pretendard/web/static/woff/Pretendard-ExtraBold.woff) format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: local('Pretendard Black'), url(./fonts/pretendard/web/static/woff2/Pretendard-Black.woff2) format('woff2'), url(./fonts/pretendard/web/static/woff/Pretendard-Black.woff) format('woff');
+    font-weight: 900;
+    font-style: normal;
     font-display: swap;
 }
 
 /* 아임크리수진체 https://noonnu.cc/font_page/441 */
 @font-face {
     font-family: 'ImcreSoojin';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/ImcreSoojin.woff') format('woff');
+    src: local('ImcreSoojin'), url(./fonts/imcresoojin/ImcreSoojin.otf) format('opentype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ImcreSoojin';
+    src: local('ImcreSoojin'), url(./fonts/imcresoojin/ImcreSoojin.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 /* 에스코어드림 https://noonnu.cc/font_page/223 */
