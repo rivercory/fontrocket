@@ -1,9 +1,9 @@
-/* fontrocket 🚀 | Version 1.0.11 */
+/* fontrocket 🚀 | Version 1.0.12 */
 
 /* 프리텐다드 https://github.com/orioncactus/pretendard */
 @font-face {
     font-family: 'Pretendard';
-    src: local('Pretendard Thin'), url(./fonts/pretendard/web/static/woff2/Pretendard-Thin.woff2) format('woff2'), url(./fonts/pretendard/web/static/woff/Pretendard-Thin.woff) format('woff');
+    src: local('Pretendard Thin'), url(./fonts/pretendard/web/static/woff2/Pretendard-Thin.woff2) format('woff2'), url(./fonts/pretendard/web/static/woff/Pretendard-Thin.woff) format('woff'), url(./fonts/pretendard/public/static/Pretendard-Thin.otf) format('otf'), url(./fonts/pretendard/public/static/alternative/Pretendard-Thin.ttf) format('ttf');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
@@ -73,6 +73,14 @@
     font-display: swap;
 }
 
+@font-face {
+	font-family: 'Pretendard Variable';
+    src: url('./woff2/PretendardVariable.woff2') format('woff2-variations');
+	font-weight: 45 920;
+	font-style: normal;
+	font-display: swap;
+}
+
 /* 아임크리수진체 https://noonnu.cc/font_page/441 */
 @font-face {
     font-family: 'ImcreSoojin';
@@ -90,7 +98,7 @@
     font-display: swap;
 }
 
-/* 에스코어드림 https://noonnu.cc/font_page/223 */
+/* 에스코어드림 https://s-core.co.kr/company/font/ */
 @font-face {
     font-family: 'S-CoreDream-3Light';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
