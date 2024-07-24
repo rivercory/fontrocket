@@ -1,6 +1,6 @@
 {
   "name": "fontrocket",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "NPM package for fontrocket",
   "author": "Hyeonho Kang <hyeonho2010@naver.com> (https://github.com/rivercory/fontrocket.git)",
   "main": "font.css",
