@@ -1,3 +1,3 @@
 # Fontrocket
-It's developing repository!
-Currently only some features are supported.
+It's developing!
+Currently few features are supported.
